@@ -152,7 +152,7 @@ function listEvents(auth) {
             weekSummary.push(`${weekMapping[i]} ${totalPerDay}`)
           }
         }
-        console.log(`${weekSummary}`)
+        console.log(`${weekSummary.join('\n')}`)
         console.log(`This week's total ${weeklyTotal}`)
       }
     })
